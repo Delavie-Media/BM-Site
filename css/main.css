@@ -1,28 +1,28 @@
 @font-face {
   font-family: 'BelcourtSansSerifLight';
-  src: url('./../fonts/317AB7_0_0.eot'); /* IE9 Compat Modes */
-  src: url('./../fonts/317AB7_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./../fonts/317AB7_0_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./../fonts/317AB7_0_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./../fonts/317AB7_0_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/317AB7_0_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/317AB7_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/317AB7_0_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/317AB7_0_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/317AB7_0_0.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'BelcourtSansSerifHeavy';
-  src: url('./../fonts/317AB7_1_0.eot'); /* IE9 Compat Modes */
-  src: url('./../fonts/317AB7_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./../fonts/317AB7_1_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./../fonts/317AB7_1_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./../fonts/317AB7_1_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/317AB7_1_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/317AB7_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/317AB7_1_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/317AB7_1_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/317AB7_1_0.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 @font-face {
-  font-family: 'BelcourtSerifLight';
-  src: url('./../fonts/317AB7_1_0.eot'); /* IE9 Compat Modes */
-  src: url('./../fonts/317AB7_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./../fonts/317AB7_1_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./../fonts/317AB7_1_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./../fonts/belcourtseriflight.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'BelcourtSerifRegular';
+  src: url('../fonts/BauerBodoniPro2W01-Black.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/BauerBodoniPro2W01-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/BauerBodoniPro2W01-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/BauerBodoniPro2W01-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/BauerBodoniPro2W01-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 .navWrapper{
@@ -72,6 +72,7 @@
 .title span{
   display:block;
   float:left;
+  font-family: BelcourtSerifRegular, Serif;
 }
 
 .title .of{
@@ -269,7 +270,7 @@
   color: #848484;
   font-size: 8pt;
   line-height: 28px;
-  font-family: sans-serif;
+  font-family: BelcourtSansSerifLight, sans-serif;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 30px;
@@ -302,7 +303,7 @@
 
 h1, h2{
   letter-spacing: 2px;
-  font-family: sans-serif;
+  font-family: BelcourtSansSerifLight, sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
   margin-bottom: 15px;
@@ -486,6 +487,7 @@ footer .footer-wrapper .footer-nav-bar li{
 footer .footer-wrapper .footer-nav-bar li a{
   color:black;
   text-decoration:none;
+  font-family:BelcourtSerifRegular, Serif;
 }
 
 footer .footer-nav-bar li:after{
@@ -700,9 +702,24 @@ footer .footer-address{
   display:none;
 }
 
+.black-div{
+  background-color:black;
+  height:385px;
+  position:relative;
+}
+
+.circle{
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  margin-top: -202px;
+}
+
 @media screen and (max-width: 1100px){
   .page-container{
     width:100%;
+    overflow:hidden;
   }
 
   .small-float-right{
@@ -755,6 +772,42 @@ footer .footer-address{
 
   .web-series .row p{
     padding-bottom:80px;
+  }
+
+  .page-container .whatsoldisnewagain{
+    padding-bottom:40px;
+  }
+
+  .page-container .geo-thermal{
+    margin-top:0px;
+    margin-left:0px;
+  }
+
+  .page-container .restoration-text h1{
+    font-size: 15pt;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .page-container .restoration-text{
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  .pop-ups h3{
+    margin-bottom: 85px;
+    margin-top:85px!important;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .footer-nav-bar{
+    display:none;
+  }
+
+  .footer-address{
+      margin-top:100px!important;
+      margin-bottom:100px!important;
   }
 }
 
@@ -863,10 +916,6 @@ footer .footer-address{
   footer .footer-wrapper .footer-nav-bar li:after{
     display:none;
   }
-
-  footer .footer-address{
-    height: 100px;
-  }
 }
 
 @media screen and (max-width: 600px){
@@ -882,6 +931,10 @@ footer .footer-address{
   .web-series .row p{
     padding-left:40px;
     padding-right:40px;
+  }
+
+  .page-container .whatsoldisnewagain h1, .page-container .restoration-text h1{
+    font-size:15pt;
   }
 }
 
