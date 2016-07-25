@@ -479,7 +479,15 @@ h1, h2{
 .contact-info-wrapper .faq p{
   padding-top:35px;
   font-size:9pt;
+
 }
+
+.contact-info-wrapper .contact-text p a{
+  color:white;
+  text-decoration: none;
+}
+
+
 
 .contact-info-wrapper .faq:before{
   content: '';
