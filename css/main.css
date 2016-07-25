@@ -430,6 +430,136 @@ h1, h2{
   margin-left: -45px;
 }
 
+.contact-info-wrapper{
+  position:absolute;
+  left:50%;
+  top: 120px;
+  margin-left: -550px;
+  width: 1100px;
+}
+
+.contact-info-wrapper .contact-info{
+  background-color: #bdd1e5;
+  height:350px;
+}
+
+.contact-info-wrapper .contact-info .crest{
+  margin-left:20px;
+  width:70px;
+}
+
+.contact-info-wrapper .faq{
+  background-color:white;
+  height: 379px;
+  margin-top: -15px;
+  text-align: center;
+  padding-top:50px;
+  text-transform: uppercase;
+  font-family: BelcourtSansSerifLight, sans-serif;
+  font-weight:lighter;
+  position:relative;
+  color:#51545b;
+}
+
+.contact-info-wrapper .faq h3{
+  font-weight:500;
+  font-size:11pt;
+}
+
+.contact-info-wrapper .faq h3:after{
+  content: '.';
+  height: 2px;
+  text-align: center;
+  clear: both;
+  display: block;
+  width: 100%;
+  font-size: 14pt;
+}
+
+.contact-info-wrapper .faq p{
+  padding-top:35px;
+  font-size:9pt;
+}
+
+.contact-info-wrapper .faq:before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #738a9f;
+  border-top: 10px solid transparent;
+  height: 0px;
+  width: 0px;
+}
+
+.contact-info-wrapper .faq:after{
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: -15px;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid #738a9f;
+  height: 0px;
+  width: 0px;
+}
+
+.contact-info-wrapper .contact-info-row{
+  margin-top:110px;
+  margin-left:50px;
+}
+
+.contact-info-row .contact-text{
+  margin-top: 0px;
+  margin-left:25px;
+  width: 380px;
+}
+
+.contact-info-row .contact-text .contact-address{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  font-size:12pt;
+  display:block;
+  float:left;
+}
+
+.contact-info-row .contact-text h1{
+  float: left;
+  text-transform: uppercase;
+  font-size: 17pt;
+  line-height: 1;
+  margin-bottom:0px;
+  color:#51545b;
+}
+
+.contact-info-row .contact-text h1 span{
+  display:block;
+  float:left;
+  font-family: BelcourtSerifRegular, Serif;
+}
+.contact-info-row .contact-text h1 .of{
+  margin-top:1px;
+  margin-left:3px;
+  margin-right:3px;
+  font-size:9pt;
+}
+
+.contact-info-row .contact-text p{
+  float:left;
+  text-transform: uppercase;
+  color:white;
+  margin-top:15px;
+}
+
+.contact-info-row .contact-text p span{
+  color:#51545b;
+  margin-right:10px;
+  float:left;
+  display:block;
+}
+
 .pop-ups{
   width:590px!important;
   margin:0 auto;
