@@ -10,9 +10,13 @@ $(document).ready(function(){
   $('.close-btn').click(function(e){
     $('#hide-screen').animate({opacity: 0}, 200, function(){
       $(this).css({'z-index': '0'});
-      $('.slider').slick("unslick");
+      unSlick();
     });
   });
+
+  function unSlick(){
+    $('.slider').slick("unslick");
+  }
 
   function modifySlider(header, body, images){
     $('#slider-header').html(header);

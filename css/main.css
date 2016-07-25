@@ -95,6 +95,20 @@
   line-height:1;
 }
 
+.cmn-t-border{
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.cmn-t-border:hover {
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 10px #909090;
+  -moz-box-shadow: inset 0 0 0 10px #909090;
+  box-shadow: inset 0 0 0 10px #909090;
+}
+
 .navWrapper .navBar li{
   margin-left: 10px;
   text-transform: uppercase;
