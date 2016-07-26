@@ -302,9 +302,9 @@
 .page-container .oliver-belmont-image .portrait-image{
   position: absolute;
   left: 50%;
-  margin-left: -273px;
-  width: 510px;
-  top: -270px;
+  margin-left: -30%;
+  width: 60%;
+  top: -30%;
   z-index: 100;
 }
 
@@ -868,10 +868,14 @@ footer .footer-address{
   margin-top: -202px;
 }
 
+.hide-desktop{
+  display:none;
+}
+
 @media screen and (max-width: 1100px){
   .page-container{
     width:100%;
-    overflow:hidden;
+    clear:both;
   }
 
   .small-float-right{
@@ -953,13 +957,31 @@ footer .footer-address{
     text-align: center;
   }
 
-  .footer-nav-bar{
+  .footer-nav-bar, .footer .socialIcons{
     display:none;
   }
 
   .footer-address{
       margin-top:100px!important;
       margin-bottom:100px!important;
+  }
+
+  .contact-info-wrapper{
+    margin-left: -498px;
+    width: 995px;
+  }
+
+  .contact-info-wrapper .contact-info .crest{
+    margin-left:0px;
+  }
+
+  .contact-info-row .contact-text{
+    width:342px;
+  }
+
+  .contact-info-wrapper .contact-info-row{
+    margin: 110px auto;
+    width: 500px;
   }
 }
 
@@ -975,10 +997,29 @@ footer .footer-address{
   .footer .footer-wrapper{
     width:800px;
   }
+
+  .contact-info-wrapper{
+    width:90%;
+    left:0px;
+    position:relative;
+    margin: -50% auto;
+  }
+
+  .faq:before, .faq:after{
+    display:none;
+  }
 }
 
 
 @media screen and (max-width: 800px){
+  .hide-desktop{
+    display:block;
+  }
+
+  .header .navWrapper .navBar{
+    display:none;
+  }
+
   .navWrapper{
     width: 100%;
     margin-left: 0px;
@@ -986,6 +1027,7 @@ footer .footer-address{
     height:55px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    z-index: 900;
   }
 
   .navWrapper ul{
@@ -1026,7 +1068,6 @@ footer .footer-address{
 
   .header{
     position: relative;
-    z-index: 800;
   }
 
   .hamburg{
@@ -1039,6 +1080,22 @@ footer .footer-address{
 
   .title{
     margin-top:20px;
+  }
+
+  .richard-morris-hunt{
+    width: 66%!important;
+    right: 50%!important;
+    margin-right: -33%;
+    bottom: -90px!important;
+  }
+
+  .hallway-image{
+    max-width: 150%;
+    width: 119%;
+  }
+
+  .page-container .oliver-belmont-text {
+    margin-top: 100px;
   }
 
   .navBar{
@@ -1068,6 +1125,10 @@ footer .footer-address{
   footer .footer-wrapper .footer-nav-bar li:after{
     display:none;
   }
+
+  .contact-info-wrapper{
+    margin-top:-56%;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -1087,6 +1148,53 @@ footer .footer-address{
 
   .page-container .whatsoldisnewagain h1, .page-container .restoration-text h1{
     font-size:15pt;
+  }
+
+  .contact-info-wrapper .contact-info .crest{
+    width:100%;
+    text-align:center;
+    margin-top: 34px;
+  }
+
+  .contact-info-wrapper .contact-info-row{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .contact-info-row .contact-text{
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .contact-info-wrapper .contact-info .crest img{
+    width:100px;
+  }
+
+  .contact-info-row .contact-text .contact-address{
+    width:100%;
+    text-align:center;
+  }
+
+  .contact-info-row .contact-text h1{
+    width:282px;
+    margin: 20px auto;
+    float:none;
+  }
+
+  .contact-info-row .contact-text p{
+    width:242px;
+    float:none;
+    margin: 15px auto 90px auto;
+  }
+
+  .contact-info-wrapper .contact-info{
+    height:auto;
+  }
+
+  .contact-info-wrapper .contact-info-row{
+    width:auto;
+    margin:0;
   }
 }
 
