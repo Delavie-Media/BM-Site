@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $('.white-bg').click(function(){
+    hideScreen();
+  });
 
   $('.pop-up-button').click(function(e){
     e.preventDefault();
@@ -8,11 +11,15 @@ $(document).ready(function(){
   });
 
   $('.close-btn').click(function(e){
+    hideScreen();
+  });
+
+  function hideScreen(){
     $('#hide-screen').animate({opacity: 0}, 200, function(){
       $(this).css({'z-index': '0'});
       unSlick();
     });
-  });
+  }
 
   function unSlick(){
     $('.slider').slick("unslick");
