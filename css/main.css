@@ -618,6 +618,11 @@ h1, h2{
   margin-top:150px;
 }
 
+footer{
+  z-index: 200;
+  position: relative;
+}
+
 footer .footer-wrapper{
   width:947px;
   margin:230px auto;
