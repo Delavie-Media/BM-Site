@@ -1,28 +1,28 @@
 @font-face {
   font-family: 'BelcourtSansSerifLight';
-  src: url('../fonts/317AB7_0_0.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/317AB7_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/317AB7_0_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/317AB7_0_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/317AB7_0_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('./../fonts/317AB7_0_0.eot'); /* IE9 Compat Modes */
+  src: url('./../fonts/317AB7_0_0.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/317AB7_0_0.woff2') format('woff2'),
+       url('./../fonts/317AB7_0_0.woff') format('woff'),
+       url('./../fonts/317AB7_0_0.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'BelcourtSansSerifHeavy';
   src: url('../fonts/317AB7_1_0.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/317AB7_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/317AB7_1_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/317AB7_1_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/317AB7_1_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/317AB7_1_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/317AB7_1_0.woff2') format('woff2'),
+       url('../fonts/317AB7_1_0.woff') format('woff'),
+       url('../fonts/317AB7_1_0.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'BelcourtSerifRegular';
   src: url('../fonts/BauerBodoniPro2W01-Black.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/BauerBodoniPro2W01-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/BauerBodoniPro2W01-Black.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/BauerBodoniPro2W01-Black.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/BauerBodoniPro2W01-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+  src: url('../fonts/BauerBodoniPro2W01-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/BauerBodoniPro2W01-Black.woff2') format('woff2'),
+       url('../fonts/BauerBodoniPro2W01-Black.woff') format('woff'),
+       url('../fonts/BauerBodoniPro2W01-Black.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 .navWrapper{
@@ -92,6 +92,7 @@
 .navWrapper ul li{
   float:left;
   line-height:1;
+  font-family:BelcourtSansSerifLight;
 }
 
 .cmn-t-border{
@@ -190,6 +191,7 @@
   letter-spacing: 3px;
   font-size: 9pt;
   text-align: left;
+  font-family: BelcourtSansSerifLight;
 }
 
 .light-blue-bg{
@@ -263,6 +265,7 @@
   margin-left: -60px;
   position: relative;
   z-index:200;
+  font-family:BelcourtSansSerifLight;
 }
 
 .page-container .oliver-belmont-text h1, .page-container .alva-vanderbilt-text h1{
@@ -282,6 +285,7 @@
   letter-spacing: 1px;
   padding: 30px;
   padding-bottom: 0px;
+  font-family: BelcourtSansSerifLight;
 }
 
 .change-of-hands p, #hide-screen p{
@@ -304,6 +308,28 @@
   z-index: 100;
 }
 
+.page-container .name-banner{
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  bottom: 52px;
+  margin-left: -45%;
+  font-family: BelcourtSansSerifLight;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  background-color: white;
+  display:none;
+}
+
+.page-container .portrait-image:hover .oliver-belmont{
+  display:block;
+}
+
+.page-container .richard-morris-hunt:hover .richard-morris{
+  display:block;
+}
+
 .page-container .oliver-belmont-image .richard-morris-hunt{
   position: absolute;
   bottom: -220px;
@@ -320,7 +346,7 @@ h1, h2{
 
 .page-container h1, .change-of-hands h1{
   color: #203257;
-  font-size: 29pt;
+  font-size: 27pt;
   text-align:center;
 }
 
@@ -370,6 +396,7 @@ h1, h2{
   float: right;
   padding: 80px;
   padding-top: 20px;
+  font-family: BelcourtSansSerifLight;
 }
 
 .change-of-hands .change-of-hands-text-wrapper .change-of-hands-text h1{
@@ -514,7 +541,9 @@ h1, h2{
   text-decoration: none;
 }
 
-
+.name-banner{
+  font-family:BelcourtSansSerifLight;
+}
 
 .contact-info-wrapper .faq:before{
   content: '';
@@ -1038,6 +1067,10 @@ footer .footer-address{
 
   .faq:before, .faq:after{
     display:none;
+  }
+
+  .name-banner{
+    display:block;
   }
 }
 

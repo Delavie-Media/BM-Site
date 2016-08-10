@@ -65,7 +65,6 @@ $(document).ready(function(){
       description:'From the swirling ceilings to the dark wood floors, the Library has undergone a complete restoration. A hill in the hardwood from years of poor drainage led to repeated water intrusion through the French doors causing the floor to buckle over time.',
       images:[
         'FIRSTFLOORLIBRARY/034Library11.20.13.jpg',
-        'FIRSTFLOORLIBRARY/IMG_0088.JPG',
         'FIRSTFLOORLIBRARY/711A8924.JPG',
         'FIRSTFLOORLIBRARY/IMG_3265.JPG'
       ]
@@ -85,7 +84,6 @@ $(document).ready(function(){
       images:[
         'ALVASBEDROOM/Alva.restore.jpg',
         'ALVASBEDROOM/711A8978.JPG',
-        'ALVASBEDROOM/IMG_3217.JPG',
         'ALVASBEDROOM/MRK32484.JPG']
     },
     chandelier: {
