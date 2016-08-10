@@ -1070,7 +1070,7 @@ footer .footer-address{
   }
 
   .name-banner{
-    display:block;
+    display:block!important;
   }
 }
 
