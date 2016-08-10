@@ -436,6 +436,22 @@ h1, h2{
   padding-left: 110px;
 }
 
+.music-room{
+  padding-top:120px!important;
+}
+
+.faux-bois{
+  padding-top:145px!important;
+}
+
+.loggia{
+  padding-top:110px!important;
+}
+
+.ballroom{
+  padding-top:100px!important;
+}
+
 .geo-thermal{
   overflow: visible;
   margin-top: -135px;
