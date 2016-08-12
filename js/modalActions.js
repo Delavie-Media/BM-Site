@@ -92,7 +92,8 @@ $(document).ready(function(){
       images:[
         'CHANDELIERS/Belcourtassemble204.JPG',
         'CHANDELIERS/IMG_0056.JPG',
-        'CHANDELIERS/IMG_0068.JPG'
+        'CHANDELIERS/IMG_0068.JPG',
+        'CHANDELIERS/33873c6e-5e8b-11e6-8493-70b31dcf67df.jpg'
       ]
     }
   };
