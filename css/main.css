@@ -191,11 +191,11 @@
 }
 
 .page-container .home-page-row .home-page-cell p, .web-series .row p{
-  line-height: 19px;
-  letter-spacing: 3px;
-  font-size: 9pt;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-size: 11pt;
   text-align: left;
-  font-family: BelcourtSansSerifLight;
+  font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif!important;
 }
 
 .light-blue-bg{
@@ -269,7 +269,7 @@
   margin-left: -60px;
   position: relative;
   z-index:200;
-  font-family:BelcourtSansSerifLight;
+  font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif!important;
 }
 
 .page-container .oliver-belmont-text h1, .page-container .alva-vanderbilt-text h1{
@@ -283,13 +283,12 @@
 
 .page-container p, .change-of-hands p, #hide-screen p, .back-to-the-start-text-wrapper p{
   color: #000000;
-  font-size: 8pt;
-  line-height: 28px;
-  font-size: 8pt;
+  font-size: 11pt;
+  line-height: 24px;
   letter-spacing: 1px;
   padding: 30px;
   padding-bottom: 0px;
-  font-family: BelcourtSansSerifLight;
+  font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif!important;
 }
 
 .page-container .oliver-belmont-image{
