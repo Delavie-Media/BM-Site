@@ -54,7 +54,7 @@ $(document).ready(function(){
   var modalSections = {
     exteriorConstr: {
       title: 'Exterior',
-      description:'The courtyard boasts a cistern made of brick and clay, which Belmont originally used to gather water for his horses. The team is currently working on a system to collect runoff rainwater from the roof and naturally water the lawn. The grounds also feature the courtyard gates and balustrade that were salvaged from a demolished house called “Whiteholme."',
+      description:'The courtyard boasts a cistern of brick and clay, which Belmont used to gather water for his horses. The team is currently working on a system to collect rainwater from the roof. The grounds also feature the courtyard gates and balustrade salvaged from a demolished house called “Whiteholme."',
       images:[
         'EXTERIOR/Belcourt 52.jpg',
         'EXTERIOR/CORV3771.JPG',
@@ -71,7 +71,7 @@ $(document).ready(function(){
     },
     theVaultedRoom: {
       title: 'The Vaulted Room',
-      description:'At a staggering 11,000 square feet, the Vaulted Room took a whole month to be cleaned by a team of five men—and, after being rid of buckets of dust, it had to be washed and sanded twice. It will take 40 gallons of primer and 40 gallons of paint to refresh the walls and the ceiling. Anything below the cornice will need to be hand-rolled and brushed. ',
+      description:'At a staggering 11,000 square feet, the Vaulted Room took a whole month to clean by a team of five—and, after being rid of buckets of dust, it had to be washed and sanded twice. It will take 40 gallons of primer and 40 gallons of paint to completely refresh the walls and ceiling. ',
       images:[
         'THEVAULTEDROOM/DSC00612.JPG',
         'THEVAULTEDROOM/IMG_0030.JPG',
@@ -80,7 +80,7 @@ $(document).ready(function(){
     },
     alvasRoom: {
       title: 'Alva\'s Bedroom',
-      description:'This intricately detailed bedroom suffered severe water damage due to an upstairs retention tank that had been leaking for years. The plasterwork was almost beyond repair, as it was never caulked to begin with. The job took over 600 hours to complete, using unique methods like filling a pastry bag with plaster to meticulously caulk around fixtures and decorations.',
+      description:'This intricately detailed bedroom suffered severe damage due to an upstairs retention tank leaking for years. The plasterwork was almost beyond repair, as it was never caulked previously. The job took over 600 hours to complete, using unique methods to meticulously caulk all fixtures and decorations.',
       images:[
         'ALVASBEDROOM/Alva.restore.jpg',
         'ALVASBEDROOM/711A8978.JPG',
@@ -88,7 +88,7 @@ $(document).ready(function(){
     },
     chandelier: {
       title: 'Chandeliers',
-      description:'Each piece of every chandelier had to be documented, completely disassembled and photographed. The largest chandelier had an estimated 20,000+ individual pieces, not including all the pins and screws. A single chandelier weighed in at 460 pounds, and was held up by nothing more than a single iron nail, to which the team later added an independent safety cable.',
+      description:'Every chandelier had to be disassembled, documented and photographed. The largest chandelier had an estimated 20,000 pieces, not including the pins or screws. One chandelier weighed 460 pounds and was held up by a single nail. The team later added an independent safety cable.',
       images:[
         'CHANDELIERS/Belcourtassemble204.JPG',
         'CHANDELIERS/IMG_0056.JPG',
